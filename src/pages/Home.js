@@ -11,7 +11,7 @@ export const Home = () => {
       <Search />
       <div className="row">
         {loading ? (
-          <p>Загрузка...</p>
+          <p className="text-center">Загрузка...</p>
         ) : (
           users.map((user) => {
             return (
